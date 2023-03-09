@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Test</name>
+	<description>test</description>
+	<gx:CascadingStyle kml:id="__managed_style_0AFFBAD96027FC36AA47">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1855B6649827FC36AA46">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B8CC0BB2927FC36AA46">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1855B6649827FC36AA46</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0AFFBAD96027FC36AA47</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="07722F0CD527FC3643D8">
+		<name>Sample</name>
+		<description><![CDATA[<div>sample</div>]]></description>
+		<LookAt>
+			<longitude>145.7962964114919</longitude>
+			<latitude>3.306445159762928</latitude>
+			<altitude>-70.1578916671487</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00144789553364</gx:fovy>
+			<range>13836976.58506394</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B8CC0BB2927FC36AA46</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_3AtTjYWrQOY">
+				<gx:ImageUrl>https://img.youtube.com/vi/3AtTjYWrQOY/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>120.8766821113772,14.34148681271622,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
